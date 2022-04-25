@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "main-font";
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "main-font";
+    src: url(./fonts/Basic-Regular.otf);
+}
+
+.header {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2.25rem;
+}
+
+.header h1 {
+    color: #605DEC;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.signup-button {
+    background-color: #605DEC;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 0.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    height: 3rem;
+}
+
+.header ul li {
+    list-style: none;
+    padding: 0.625rem;
+    color: #7C8DB0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.flight-search {
+    width: 100%; 
+    height: 44rem;
+    background-image: url(./img//world-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
