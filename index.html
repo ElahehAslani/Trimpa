@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Tripma</title>
-    <link rel="stylesheet" href="./cssfiles/main.css" />
+  <title>Tripma</title>
+  <link rel="stylesheet" href="./cssfiles/main.css" />
 </head>
-
 <body>
-    <header class="header">
-        <h1>Tripma</h1>
-        <nav class="nav">
-            <ul>
-                <li>Flights</li>
-                <li>Hotels</li>
-                <li>Packages</li>
-                <li>Sign in</li>
-            </ul>
-            <a href="./signup.html">
-                <div role="button" class="signup-button">Sign up</div>
-            </a>
-        </nav>
-    </header>
-    <section class="flight-search">
-    </section>
+  <header class="header">
+    <h1>Tripma</h1>
+    <nav class="nav">
+      <ul>
+        <li>Flights</li>
+        <li>Hotels</li>
+        <li>Packages</li>
+        <li>Sign in</li>
+      </ul>
+      <div role="button" class="signup-button">Sign up</div>
+    </nav>
+  </header>
+  <section class="flight-search">
+    <div class="flight-titel">
+      <span>Its more than just a trip </span>
+    </div>
+    <div class="fligt-input">
+      <button class="from-where">
+        <img src="./assets/departure.svg" />
+        <input placeholder="From where?" />
+      </button>
+      <button class="where-to">
+        <img src="./assets/arrival.svg" />
+        <input placeholder="Where to?" />
+      </button>
+      <button class="depart-return">
+        <img src="./assets/calendar with dates.svg" />
+        <input placeholder="Depart-Return?" />
+      </button>
+      <button class="adult">
+        <img src="./assets/person solid.svg" />
+        <input placeholder="1 adalt" />
+      </button>
+      <div role="button" class="search">search</div>
+    </div>
+  </section>
 </body>
-
 </html>
