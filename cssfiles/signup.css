@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:"main-font";
+    text-decoration: none;
+    width: 35.5rem;
+    height: 42rem;
+}
+
+@font-face {
+    font-family:"main-font";
+    src: url(./../fonts/Basic-Regular.otf);
+}
+
+.sign-up {
+    margin: 2.5rem 2.5rem;
+}
+
+.signup-trimpa {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    justify-content: flex-start;
+    width: 85%;
+}
+
+.signup-trimpa span {
+    font-size: 1.5rem;
+    color: #6E7491;
+    /* text-align: center; */
+    font-weight: bold;
+}
+
+.signup-trimpa p {
+    font-size: 1rem;
+    color: #7C8DB0;
+    /* text-align: center; */
+}
+
+.account-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-account {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.email-account input {
+    border: 1px solid #A1B0CC;s
+    padding: 0.75rem 0.5rem;
+}
+
+fieldset {
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}

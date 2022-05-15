@@ -15,8 +15,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    margin: 1rem 2.25rem;
+    align-items: baseline;
+    align-content: center;
+    /* margin: 1rem 2.25rem; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
 }
 
 .header h1 {
@@ -24,6 +31,13 @@ body {
     font-size: xx-large;
     font-weight: bolder;
     margin: 0;
+    width: 6.75rem;
+    height: 1.75rem;
+}
+
+.nav a {
+    text-decoration: none;
+    cursor: default;
 }
 
 .signup-button {
@@ -38,6 +52,10 @@ body {
     height: 3rem;
 }
 
+.signup-button:hover {
+    background-color: blue;
+}
+
 .header ul li {
     list-style: none;
     padding: 0.625rem;
@@ -46,6 +64,10 @@ body {
     font-weight: 300;
 }
 
+.header ul li:hover {
+    color:#605DEC;
+    cursor: pointer;
+}
 .nav {
     display: flex;
     align-items: center;
