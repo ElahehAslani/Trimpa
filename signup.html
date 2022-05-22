@@ -1,45 +1,69 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Sign up</title>
     <link rel="stylesheet" href="./cssfiles/signup.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <section class="sign-up">
-        <div class="signup-trimpa">
-            <span>Sign up for Trimpa</span>
-            <p>Trimpa is totally free to use. Sign up using your email address or phone nummber below to grt started.
-            </p>
-        </div>
-        <form accept-charset="account-form">
-            <div class="email-account">
-                <input type="email" name="email" placeholder="Email or phone nummber" />
-                <input type="password" name="password" placeholder="Password" />
-            </div>
-            <input type="checkbox" name="agree" />
-            <label for="agree">I agree to the <a>terms and conditions</a></label>
-            <input type="checkbox" name="send-alerts" />
-            <label for="send-alerts">Send me the latest deal alerts</label>
-        </form>
-        <div role="button">Create account</div>
-        <fieldset>
-            <legend> or </legend>
-            <span>
-                <img src="./assets/google.svg">
-                <a href="google">Continue with Google</a>
-            </span>
-            <span>
-                <img src="./assets/apple mac.svg">
-                <a href="apple">Continue with Apple</a>
-            </span>
-            <span>
-                <img src="./assets/facebook.svg">
-                <a href="facebook">Continue with Facebook</a>
-            </span>
-        </fieldset>
-    </section>
-</body>
+      <div class="signup-trimpa">
+        <span>Sign up for Trimpa</span>
+        <p>
+          Trimpa is totally free to use. Sign up using your email address or
+          phone nummber below to grt started.
+        </p>
+      </div>
 
+      <form action="/">
+        <div class="email-account">
+          <input
+            type="email"
+            name="email"
+            placeholder="Email or phone number"
+            value=""
+          />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            value=""
+          />
+        </div>
+
+        <div>
+          <label for="agree"></label>
+          <input type="checkbox" name="agree" />
+          <span>I agree to the</span>
+          <a href="/">terms and conditions</a>
+        </div>
+
+        <div>
+          <label for="send-alerts">Send me the latest deal alerts</label>
+          <input type="checkbox" name="send-alerts" />
+        </div>
+
+        <div role="button" onclick="">Create account</div>
+      </form>
+
+      <div class="line">
+        <hr class="hr" />
+        <span>or</span>
+        <hr class="hr" />
+      </div>
+
+      <span>
+        <img src="./assets/google.svg" />
+        <a href="/google">Continue with Google</a>
+      </span>
+      <span>
+        <img src="./assets/apple mac.svg" />
+        <a href="apple">Continue with Apple</a>
+      </span>
+      <span>
+        <img src="./assets/facebook.svg" />
+        <a href="facebook">Continue with Facebook</a>
+      </span>
+    </section>
+  </body>
 </html>

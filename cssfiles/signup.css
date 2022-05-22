@@ -1,19 +1,12 @@
-body {
-    padding: 0;
-    margin: 0;
-    font-family:"main-font";
-    text-decoration: none;
-    width: 35.5rem;
-    height: 42rem;
-}
-
 @font-face {
     font-family:"main-font";
     src: url(./../fonts/Basic-Regular.otf);
 }
 
 .sign-up {
-    margin: 2.5rem 2.5rem;
+    width: 35.5rem;
+    height: 42rem;
+    margin: auto;
 }
 
 .signup-trimpa {
@@ -37,6 +30,16 @@ body {
     /* text-align: center; */
 }
 
+.line {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.hr {
+    width: 100%;
+}
+
 .account-form {
     display: flex;
     flex-direction: column;
@@ -49,7 +52,7 @@ body {
 }
 
 .email-account input {
-    border: 1px solid #A1B0CC;s
+    border: 1px solid #A1B0CC;
     padding: 0.75rem 0.5rem;
 }
 
