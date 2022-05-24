@@ -17,7 +17,6 @@ body {
     justify-content: space-between;
     align-items: baseline;
     align-content: center;
-    /* margin: 1rem 2.25rem; */
     padding-left: 2rem;
     padding-right: 2rem;
     position: -webkit-sticky;
@@ -163,4 +162,200 @@ body {
 
 .search:hover {
     background-color: blue;
+}
+
+.shanghai {
+    background-image:url(./../img/shanghai.png);
+    height: 25rem;
+    width: 25.6rem;
+    border-radius: 1.25rem 1.25rem 0 0 ;
+
+}
+
+.sydney {
+    background-image: url(./../img/sydney.png);
+    height: 25rem;
+    width: 25.6rem;
+    border-radius: 1.25rem 1.25rem 0 0 ;
+}
+
+.kyoto {
+    background-image: url(./../img/kyoto.png);
+    height: 25rem;
+    width: 25.6rem;
+    border-radius: 1.25rem 1.25rem 0 0 ;
+}
+
+.kenya {
+    background-image: url(./../img/kenya.png);
+    width: 82rem;
+    height: 25rem;
+    border-radius: 1.25rem 1.25rem 0 0 ;
+}
+
+.flight-fotos {
+    display:flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.flight-fotos3 {
+    border-radius: 20px;
+    border: 0.06 solid cornflowerblue;
+}
+
+.flight-fotos30 {
+    margin-bottom: 2.5rem;
+}
+
+.flight-foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.flight-deals-title {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:0.3rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 7rem;
+}
+
+.flight-deals-title>span {
+    color:#7C8DB0;
+}
+
+.flight-deals-title :nth-child(2) {
+    color:#605DEC;
+}
+
+.border {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    border: 0.06rem solid color: #FFFFFF;
+    border-radius: 0 0 1.25rem 1.25rem ;
+    width: 25.6rem;
+    height: 5rem;
+    box-shadow: 0 0.12rem 0.25rem  #CBD4E6;
+}
+
+.bund-shanghai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:1.25rem 1.25rem 0 1.25rem;
+}
+
+.bund-sydney {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:1.25rem 1.25rem 0 1.25rem;
+}
+
+.bund-kyoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:1.25rem 1.25rem 0 1.25rem;
+}
+
+.bund-kenya {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:1.25rem 1.25rem 0 1.25rem;
+}
+
+.bund-shanghai1 :nth-child(2) {
+    color: #605DEC;
+    font-size: 1.1rem;
+}
+
+.bund-shanghai span {
+    color: #7C8DB0;
+    font-size: 1.1rem;
+}
+
+.china-city {
+    margin:0 1.25rem 1.25rem 1.25rem;
+}
+
+.china-city span {
+color: #CBD4E6;
+font-size: 1rem;
+}
+
+.bund-sydney1 :nth-child(2) {
+    color: #605DEC;
+    font-size: 1.1rem; 
+}
+
+.bund-sydney span {
+    color: #7C8DB0;
+    font-size: 1.1rem;
+}
+
+.stroll-city {
+    margin:0 1.25rem 1.25rem 1.25rem;
+}
+
+.stroll-city span {
+    color: #CBD4E6;
+    font-size: 1rem;
+}
+
+.bund-kyoto1 :nth-child(2) {
+    color: #605DEC;
+    font-size: 1.1rem;
+}
+
+.bund-kyoto span {
+    color: #7C8DB0;
+    font-size: 1.1rem;  
+}
+
+.strikt-city {
+    margin:0 1.25rem 1.25rem 1.25rem;  
+}
+
+.strikt-city span {
+    color: #CBD4E6;
+    font-size: 1rem;
+}
+
+.kenya-border {
+    width: 81.5rem;
+    height: 5.18rem;
+    border: 0.25rem solid  #FFFFFF;
+    box-shadow: 0 0.12rem 0.25rem  #CBD4E6;
+    border-radius: 0 0 1.25rem 1.25rem ;
+}
+
+.bund-kenya :nth-child(2) {
+    color: #605DEC;
+    font-size: 1.1rem;
+}
+
+.bund-kenya span {
+    color: #7C8DB0;
+    font-size: 1.1rem;  
+}
+
+.river-city {
+    margin:0 1.25rem 1.25rem 1.25rem;
+}
+
+.river-city span {
+    color: #CBD4E6;
+    font-size: 1rem;
+}
+
 }
