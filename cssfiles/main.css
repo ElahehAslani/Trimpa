@@ -239,7 +239,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
-    border: 0.06rem solid color: #FFFFFF;
+    border: 0.06rem solid  #FFFFFF;
     border-radius: 0 0 1.25rem 1.25rem ;
     width: 25.6rem;
     height: 5rem;
@@ -358,4 +358,3 @@ font-size: 1rem;
     font-size: 1rem;
 }
 
-}
