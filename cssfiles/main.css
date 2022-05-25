@@ -23,6 +23,7 @@ body {
     position: sticky;
     top: 0;
     background-color: #FFFFFF;
+    z-index: 50;
 }
 
 .header h1 {
