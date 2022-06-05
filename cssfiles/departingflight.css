@@ -1,0 +1,66 @@
+body{
+    width: auto;
+    margin: 0;
+    font-family:"main-font";
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "main-font";
+    src:url(./../fonts/Basic-Regular.otf)
+}
+
+.departing-flight {
+    margin: 4rem;
+}
+
+ .flight-information {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .flight-information input {
+     border: 0;
+     outline: 0;
+     width: 5rem;
+ }
+
+ .flight-information button {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+     background-color: #FFFFFF;
+     border: solid #CBD4E64D;
+     height: 3rem;
+ }
+
+ .flight-search {
+     background-color:#605DEC;
+     color:#FAFAFA;
+     width: 6rem;
+     border: 0;
+     border-radius: 0.25rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .sfo {
+     width: 11rem;
+     border: 0;
+     border-radius: 0.25rem 0 0 0.25rem;
+ }
+
+ .nrt {
+     width: 11rem;
+ }
+
+ .depart {
+     width: 16rem;
+ }
+
+ .adalt {
+     width: 11rem;
+ }
