@@ -11,13 +11,14 @@ body{
     src:url(./../fonts/Basic-Regular.otf)
 }
 
-.departing-flight {
+.layout {
     margin: 4rem;
 }
 
  .flight-information {
      display: flex;
      flex-direction: row;
+     margin-bottom: 1.5rem;
  }
 
  .flight-information input {
@@ -63,4 +64,87 @@ body{
 
  .adalt {
      width: 11rem;
+ }
+
+ .flight-informations span {
+     border: 0.06rem solid #CBD4E6;
+     border-radius: 0.25rem;
+     height: 2.4rem;
+     display: flex;
+     flex-direction: row;
+     justify-content:center;
+     align-items: center;
+     gap:0.5rem;
+
+ }
+ 
+ .flight-informations span a {
+     color:  #27273F;
+     text-decoration: none;
+     font-size: 1rem;
+ } 
+
+ .flight-informations {
+     display: flex;
+     flex-direction: row;
+     gap: 1rem;
+     margin-bottom: 3rem;
+ }
+
+ .price {
+     width: 7.5rem;
+ }
+
+ .shop {
+     width: 6rem;
+ }
+
+ .time {
+     width: 6rem;
+ }
+
+ .airline {
+     width: 6.5rem;
+ }
+
+ .seat {
+     width: 7.6rem;
+ }
+
+ .more {
+     width: 5.4rem;
+ }
+
+ .departing-flights {
+     display: grid;
+     grid-template-columns:2fr 1fr;
+ }
+
+ .flight-row {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap:1.5rem;
+ }
+
+ .flight-rows {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .flight-row-scroll {
+     height: 28rem;
+     overflow-y:scroll;
+     border: 0.06rem solid#F6F6FE;
+     border-radius: 0.5rem;
+     scrollbar-width: none;
+ }
+ 
+.show-flights {
+     border: 0.06rem solid  #605DEC;
+     border-radius: 0.25rem;
+     text-decoration: none;
+     color: #605DEC;
+     width: 8rem;
+     height: 1.5rem;
  }
