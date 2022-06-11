@@ -118,6 +118,7 @@ body{
  .departing-flights {
      display: grid;
      grid-template-columns:2fr 1fr;
+     height: 50rem;
  }
 
  .flight-row {
@@ -132,8 +133,17 @@ body{
      flex-direction: column;
  }
 
+ .first-departing-flights {
+     width: 100%;
+ }
+
+ .second-departing-flight {
+     width: 100%;
+ }
+
  .flight-row-scroll {
      height: 28rem;
+     width: 52.5rem;
      overflow-y:scroll;
      border: 0.06rem solid#F6F6FE;
      border-radius: 0.5rem;
@@ -145,6 +155,17 @@ body{
      border-radius: 0.25rem;
      text-decoration: none;
      color: #605DEC;
-     width: 8rem;
-     height: 1.5rem;
+     width: 12rem;
+     height: 3rem;
+     margin-top: 2.25rem;
+     margin-bottom: 4rem;
+     margin-left: 42.5rem;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+ }
+
+ .map-flight {
+     width:52.5rem;
+     height: 11rem;
  }

@@ -11,6 +11,10 @@ body {
     src: url(./../fonts/Basic-Regular.otf);
 }
 
+.layout{
+    margin: 4rem;
+}
+
 .header {
     width: auto;
     display: flex;
@@ -164,10 +168,6 @@ body {
 
 .search:hover {
     background-color: blue;
-}
-
-.flight-deals {
-    margin: 4rem; 
 }
 
 .flight-fotos {
@@ -352,9 +352,7 @@ font-size: 1rem;
 .user-img {
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     align-items: center;
-    /* align-content: center; */
     gap: 1rem;
     color: #6E7491;
     margin-bottom: 0.6rem;
@@ -383,7 +381,6 @@ font-size: 1rem;
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin: 5rem;
 }
 
 .trimpa-users {
