@@ -169,3 +169,24 @@ body{
      width:52.5rem;
      height: 11rem;
  }
+
+ .stay-city {
+    display: flex;
+    flex-direction: row;
+    gap:2.5rem;
+    justify-content: center;
+
+ }
+
+ .stay-city img {
+    width: 25.6rem;
+    height: 25rem;
+    border: 0;
+    border-radius: 0.25rem;
+ }
+
+ .find {
+    margin-bottom: 1.5rem;
+    margin-top: 7rem;
+    padding-left: 2.7rem;
+ }
