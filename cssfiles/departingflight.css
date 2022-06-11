@@ -189,4 +189,64 @@ body{
     margin-bottom: 1.5rem;
     margin-top: 7rem;
     padding-left: 2.7rem;
+    font-size: 1.5rem;
+    color: #6E7491;
+ }
+
+ .find :nth-child(2) {
+    color:  #605DEC;
+ }
+
+ .stay-cities {
+    border: 0.06rem solid  #FFFFFF;
+    width: 26rem;
+    height: 9rem;
+    border-radius:0 0 0.25rem 0.25rem;
+    box-shadow: 0 0.12rem 0.25rem  #CBD4E6 ;
+    outline: 0;
+ }
+
+ .stay-cities span {
+    color:#605DEC;
+    font-size: 1.1rem;
+    margin-left: 1.5rem;
+ }
+
+ .stay-cities p {
+    color: #7C8DB0;
+    font-size:1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+ }
+
+ .stay-incity p {
+    font-size: 1rem;
+    color:  #A1B0CC;
+    margin-left: 1.5rem;
+ }
+
+ .country {
+    width: 25.5rem;
+    height: 5rem;
+    border: 0.06rem solid  #FFFFFF;
+    border-radius:0 0 0.25rem 0.25rem;
+    box-shadow: 0 0.12rem 0.25rem  #CBD4E6 ;
+ }
+
+ .country div :nth-child(2) {
+    color: #605DEC;
+    font-size: 1.1rem;
+ }
+
+ .country div :nth-child(1) {
+    color: #6E7491;
+    font-size:1,1rem ;
+ }
+
+ .choose-country {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
  }
