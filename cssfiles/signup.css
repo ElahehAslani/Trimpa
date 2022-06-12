@@ -2,6 +2,12 @@
     width: 35.5rem;
     height: 42rem;
     margin: auto;
+    border: 1px solid White;
+    border-radius: 1.5rem;
+    padding: 2.5rem; 
+    box-shadow: 0px 12px 24px 0px #1B3B770D,
+                0px 24px 60px 0px #062F7D0D,
+                0px 2px 4px 0px #0704921A;
 }
 
 .signup-trimpa {
@@ -35,6 +41,13 @@
     border: 1px solid #A1B0CC;
     padding: 0.75rem 0.5rem;
     border-radius: 0.25rem;
+    font-size: 1rem;
+    color: Grey;
+    outline: none;
+}
+
+.email-account input:focus {
+    border: 1px solid blue;
 }
 
 .agree-to {
@@ -43,21 +56,31 @@
     gap: 0.25rem;
     justify-content: flex-start;
     margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color:Grey;
 }
 
 .agree-to a {
     text-decoration: none;
+    font-size: 1rem;
 }
 
 .agree-to:hover {
     cursor: pointer;
 }
 
+.agree-to input {
+    margin-left: 0;
+}
+
 .send-me {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
     gap: 0.25rem;
+    font-size: 1rem;
+    color: Grey;
+
 }
 
 .send-me:hover {
@@ -66,7 +89,6 @@
 
 .create-account {
     background-color: #605DEC;
-    width: ;
     height: 3rem;
     border-radius: 0.25rem;
     text-align: center;
@@ -101,7 +123,6 @@
 
 .continue-with-social-madia span {
     background-color: White;
-    width: ;
     height: 3rem;
     border: 1px solid Blue;
     border-radius: 0.25rem;
@@ -119,4 +140,6 @@
 
 .continue-with-social-madia a {
     text-decoration: none;
+    font-size: 1rem;
+    color: Blue;
 }
