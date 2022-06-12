@@ -11,6 +11,10 @@ body {
     src: url(./../fonts/Basic-Regular.otf);
 }
 
+.layout{
+    margin: 4rem;
+}
+
 .header {
     width: auto;
     display: flex;
@@ -164,10 +168,6 @@ body {
 
 .search:hover {
     background-color: blue;
-}
-
-.flight-deals {
-    margin: 4rem; 
 }
 
 .flight-fotos {
@@ -344,6 +344,61 @@ font-size: 1rem;
     font-size: 1rem;
 }
 
+
+.user-city {
+    display: flex;
+    flex-direction:column
+}
+
+.user-img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    color: #6E7491;
+    margin-bottom: 0.6rem;
+}
+
+.user-comment {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    align-items: center;
+    max-width: 20rem;
+    font-size: 1.1rem;
+    color: #333333;
+}
+
+.user-comment span {
+    color:  #605DEC;
+}
+
+.users {
+    display: flex;
+    flex-direction: row;
+    gap:5rem;
+
+}
+
+.users-saying {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.trimpa-users {
+    margin-bottom: 2.5rem;
+    font-size: 1.5rem;
+    color:  #6E7491;
+}
+
+.trimpa-users :nth-child(2) {
+    color: #605DEC;
+}
+
+
 .explore-places-to-stay {
     display: flex;
     flex-direction: column;
@@ -515,4 +570,5 @@ footer {
     font-size: 1rem;
     color:Grey;
 }
+
 
