@@ -368,6 +368,10 @@ font-size: 1rem;
     color: #333333;
 }
 
+.user-comment span {
+    color:  #605DEC;
+}
+
 .users {
     display: flex;
     flex-direction: row;

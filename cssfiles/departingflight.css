@@ -15,6 +15,76 @@ body{
     margin: 4rem;
 }
 
+.header {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 50;
+}
+
+.header h1 {
+    color: #605DEC;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin: 0;
+    width: 6.75rem;
+    height: 1.75rem;
+}
+
+.nav a {
+    text-decoration: none;
+    cursor: default;
+}
+
+.signup-button {
+    background-color: #605DEC;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 0.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    height: 3rem;
+}
+
+.signup-button:hover {
+    background-color: blue;
+}
+
+.header ul li {
+    list-style: none;
+    padding: 0.625rem;
+    color: #7C8DB0;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.header ul li:hover {
+    color:#605DEC;
+    cursor: pointer;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+
  .flight-information {
      display: flex;
      flex-direction: row;
@@ -175,11 +245,10 @@ body{
     flex-direction: row;
     gap:2.5rem;
     justify-content: center;
-
  }
 
- .stay-city img {
-    width: 25.6rem;
+ .space-between img {
+    width: 26rem;
     height: 25rem;
     border: 0;
     border-radius: 0.25rem;
@@ -203,7 +272,8 @@ body{
     height: 9rem;
     border-radius:0 0 0.25rem 0.25rem;
     box-shadow: 0 0.12rem 0.25rem  #CBD4E6 ;
-    outline: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
  }
 
  .stay-cities span {
@@ -249,4 +319,14 @@ body{
     justify-content: space-between;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ }
+
+ .space-between {
+    font-size: 0 rem;
+ }
+
+ .stay-incity {
+    font-size: 0;
  }
