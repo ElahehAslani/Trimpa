@@ -449,7 +449,7 @@ font-size: 1rem;
     justify-content: center;
     gap: 0;
     width: 25.5rem;
-    border: 1px solid White;
+    border: none;
     border-radius: 1.25rem;
     box-shadow: 0px 12px 24px 0px #1B3B770D,
                 0px 24px 60px 0px #062F7D0D,
