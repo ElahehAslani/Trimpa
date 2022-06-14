@@ -191,11 +191,33 @@ body{
      height: 50rem;
  }
 
+ .departing-flight span {
+    color: #605DEC;
+    font-size: 1.1rem;
+ }
+
+ .departing-flight p {
+    color: #7C8DB0;
+    font-size: 1.1rem;
+ }
+
  .flight-row {
      display: flex;
      flex-direction: row;
      align-items: center;
+     align-content: center;
+     justify-content:space-between;
+     text-align: center;
      gap:1.5rem;
+     border: 0.06rem solid #F6F6FE;
+     height: 5.5rem;
+     padding-left: 2rem;
+     padding-right: 1rem;
+ }
+
+ .flight-row:hover {
+    background-color: #E9E8FC;
+    cursor: pointer;
  }
 
  .flight-rows {
@@ -212,12 +234,17 @@ body{
  }
 
  .flight-row-scroll {
-     height: 28rem;
-     width: 52.5rem;
+     height: 30rem;
+     /* width: 52.5rem; */
      overflow-y:scroll;
      border: 0.06rem solid#F6F6FE;
      border-radius: 0.5rem;
      scrollbar-width: none;
+     width: 100%;
+ }
+
+ .flight-row-scroll::-webkit-scrollbar {
+    display: none;
  }
  
 .show-flights {
@@ -236,8 +263,9 @@ body{
  }
 
  .map-flight {
-     width:52.5rem;
+     /* width:52.5rem; */
      height: 11rem;
+     width: 100%;
  }
 
  .stay-city {
@@ -247,17 +275,18 @@ body{
     justify-content: center;
  }
 
- .space-between img {
+ 
+ .stay-city img {
     width: 26rem;
     height: 25rem;
     border: 0;
-    border-radius: 0.25rem;
+    border-radius: 0.25rem 0.25rem 0 0 ;
  }
 
  .find {
     margin-bottom: 1.5rem;
     margin-top: 7rem;
-    padding-left: 2.7rem;
+    padding-left: 2.1rem;
     font-size: 1.5rem;
     color: #6E7491;
  }
@@ -268,12 +297,12 @@ body{
 
  .stay-cities {
     border: 0.06rem solid  #FFFFFF;
-    width: 26rem;
+    width: 25.8rem;
     height: 9rem;
     border-radius:0 0 0.25rem 0.25rem;
     box-shadow: 0 0.12rem 0.25rem  #CBD4E6 ;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
  }
 
  .stay-cities span {
@@ -296,7 +325,7 @@ body{
  }
 
  .country {
-    width: 25.5rem;
+    width: 25.8rem;
     height: 5rem;
     border: 0.06rem solid  #FFFFFF;
     border-radius:0 0 0.25rem 0.25rem;
@@ -323,10 +352,67 @@ body{
     margin-bottom: 1rem;
  }
 
- .space-between {
-    font-size: 0 rem;
+ .hotel {
+    font-size: 0rem;
  }
 
  .stay-incity {
     font-size: 0;
  }
+
+ footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 7.5rem;
+}
+
+.footer-first {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+.footer-columns {
+    display: flex;
+    flex-direction:column;
+    gap: 1rem;
+}
+
+.footer-columns :nth-child(1) {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: Grey;
+}
+
+.footer-columns , span {
+    font-size: 1rem;
+    font-weight: 400;
+    color: Grey;
+}
+
+.footer-columns img {
+    width: 8.5rem;
+    height: 2.5rem;
+}
+
+.footer-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #CBD4E6;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    gap: 1.375rem;
+}
+
+.footer-second span {
+    font-size: 1rem;
+    color:Grey;
+}

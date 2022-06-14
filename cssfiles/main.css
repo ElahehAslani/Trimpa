@@ -541,7 +541,7 @@ footer {
     color: Grey;
 }
 
-.footer-columns > span {
+.footer-columns , span {
     font-size: 1rem;
     font-weight: 400;
     color: Grey;
